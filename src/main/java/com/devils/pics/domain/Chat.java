@@ -1,10 +1,5 @@
 package com.devils.pics.domain;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-
-@Data //getter, setter를 자동생성
-@AllArgsConstructor //생성자를 자동 생성
 public class Chat {
 	private int chatId;
 	private int custId;
